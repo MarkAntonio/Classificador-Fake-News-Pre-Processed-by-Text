@@ -1,3 +1,5 @@
+Projeto de estudo de Machine Learning (ML) para classificação de textos (sentimentos), realizado durante a disciplina de TAIA (Tópicos Avançados em IA), ministrado pelo prof. Caio Libânio na UFRPE-UAST.
+
 # Classificador de Fake News com Pré-processamento de Texto
 
 Este repositório contém um notebook em Python para construir um classificador de notícias falsas utilizando técnicas clássicas de Processamento de Linguagem Natural (NLP) e Machine Learning. O objetivo principal é transformar textos em representações numéricas úteis, treinar modelos de classificação e avaliar a capacidade de distinguir entre notícias reais e falsas.
@@ -154,38 +156,9 @@ O projeto também destaca uma abordagem didática muito útil para entender como
 
 ## Como executar
 
-### Opção 1 — Google Colab
+### Google Colab
 
 1. Abra o notebook no Google Colab;
 2. Monte o Google Drive;
 3. Ajuste o caminho do CSV, se necessário;
 4. Execute as células em ordem.
-
-### Opção 2 — Ambiente local
-
-Instale as dependências:
-
-```bash
-pip install pandas scikit-learn nltk spacy matplotlib seaborn
-python -m spacy download en_core_web_sm
-```
-
-Depois, abra o notebook com Jupyter:
-
-```bash
-jupyter notebook
-```
-
-## Considerações finais
-
-Este repositório é um exemplo prático e didático de classificação de textos para detecção de notícias falsas. Ele integra o ciclo completo de processamento de linguagem natural e machine learning, desde a leitura do dataset até a avaliação final do modelo.
-
-O projeto é ideal para estudantes e iniciantes em NLP, pois mostra claramente cada etapa do pipeline, sem esconder a lógica principal por trás da modelagem de texto.
-
-## Sobre o autor
-
-Projeto desenvolvido com foco em aprendizagem prática em Ciência de Dados, Machine Learning e Processamento de Linguagem Natural.
-
----
-
-Se quiser, também posso criar uma versão mais sofisticada deste README com badges, estrutura de diretórios, tabela de resultados experimentais e instruções em inglês.
